@@ -1,0 +1,130 @@
+@font-face{
+    font-family: "perros";
+    src: url('../PerrosEJR/fuentes/sigmar_one.woff');
+}
+
+
+body{
+    background-color: #e9f2fb;
+    margin-left: 500px;
+    margin-right: 500px ;
+}
+
+#rojo{
+    
+    color: #ff4d4f;
+    background-color: #ffffff;
+}
+
+#azul{
+
+    color: #4a8efc;
+
+}
+
+#negro{
+
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#titulo{
+
+    font-family: perros;
+    text-align: center;
+}
+
+hr{
+    width: 800px;
+    height: 9px;
+    border-color: black;
+    border-width: 3px ;
+    margin-top: 20px;
+    background-color: #7a99b8;
+    border-radius: 6px;
+
+}
+
+#perros{
+
+    font-family: perros;
+    color: #7a99b8;
+    text-shadow: 4px 4px 0.5px black ;
+
+}
+
+#perros1{
+    margin-right: 10px;
+    inline-size: 185px;
+    border: 5px solid #7a99b8;
+    padding: 4px;
+    float: left;
+
+}
+
+.perroT1{
+
+    padding: 3px;
+    margin-bottom: 150px;
+    width: 80%;
+    
+    
+}
+
+#perro2{
+
+    inline-size: 185px;
+    border: 5px solid #7a99b8;
+    padding: 4px;
+    float: right;
+
+}
+
+.perroT2{
+
+    padding: 3px;
+    margin-bottom: 220px;
+
+}
+
+#p3{
+
+display: flex;
+align-items: flex-start;
+
+}
+
+#perro3{
+
+
+    inline-size: 123px;
+    border: 5px solid #7a99b8;
+    padding: 4px;
+    align-items: center;
+    
+
+}
+
+#perroT3-1{
+
+    align-items: left;
+    width: 33%;
+    margin-right: 15px;
+
+}
+
+#perroT3-2{
+
+    align-items: right;
+    width: 33%;
+    margin-left: 15px;
+}
+
+
+#Wikipedia{
+
+    text-align: right;
+    
+}
