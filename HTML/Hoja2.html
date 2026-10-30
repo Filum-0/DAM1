@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div{
+
+            width: 70%;
+            background-color: red;
+            color: aliceblue;
+            margin: 20px auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        p{
+            background-color: turquoise;
+            margin: 20px auto;
+            width: 70%;
+            padding: 20px;
+            font-size: 30px;
+
+        }
+
+        div, p{
+
+            border-radius: 15px;
+        }
+        
+        tbody{
+
+            background-color: blanchedalmond;
+        }
+
+        th{
+            background-color: yellowgreen;
+        }
+
+        table, caption{
+
+            background-color: rgb(187, 227, 240);
+            width: 500px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+
+
+        }
+        
+        tfoot{
+
+            background-color: rgb(216, 169, 216);
+            font-size: 1.5rem;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div>
+        
+        <p>comienzo de curso</p>
+        
+    </div>
+
+        <br> 
+<!--table>thead>tr>th*3-->
+
+
+    <table border="5" align="center" >
+        <caption> Alumnos de primero de DAM</caption>
+            <thead>
+                <tr>
+
+                    <th>  Alumnos      </th>
+                    <th>  Programacion   </th>
+                    <th>  Sistemas </th> 
+                    
+                </tr>
+            </thead>
+<!--tbody>tr*3>td*3-->
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>10</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Alberto</td>
+                <td>5</td>
+                <td>10</td>
+            <tr>
+                <td>Paco</td>
+                <td>5</td>
+                <td>10</td>
+            </tr>
+            </tbody>
+
+            <tfoot>
+                <!--colspan para hacer que una casilla ocupe X-->
+                <td colspan="3" align="center">
+                    Resumen de los Alumnos
+                </td>
+            </tfoot>
+
+
+
+        </table>
+
+    
+
+
+
+</body>
+</html>
